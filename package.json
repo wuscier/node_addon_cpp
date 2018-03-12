@@ -1,0 +1,27 @@
+{
+  "name": "node_addon_cpp_test",
+  "version": "1.0.0",
+  "description": "node addon cpp test",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuscier/node_addon_cpp.git"
+  },
+  "keywords": [
+    "node",
+    "addon",
+    "cpp",
+    "test"
+  ],
+  "author": "wuxu",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/wuscier/node_addon_cpp/issues"
+  },
+  "homepage": "https://github.com/wuscier/node_addon_cpp#readme"
+}
